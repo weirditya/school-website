@@ -166,3 +166,46 @@ footer {
   color: #333;
   margin-top: 10px;
 }
+
+
+/* ===== Academics Page ===== */
+.programs, .subjects {
+  padding: 40px;
+  text-align: center;
+}
+
+.program-grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.program-card {
+  background: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  padding: 20px;
+  width: 250px;
+  transition: transform 0.3s ease;
+}
+
+.program-card:hover {
+  transform: translateY(-5px);
+  background-color: #f0faff;
+}
+
+.subjects ul {
+  list-style: none;
+  padding: 0;
+}
+
+.subjects li {
+  display: inline-block;
+  background: #4caf50;
+  color: white;
+  margin: 5px;
+  padding: 10px 15px;
+  border-radius: 20px;
+}
