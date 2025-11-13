@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admissions | Greenfield Public School</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header>
+    <h1>Greenfield Public School</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="academics.html">Academics</a></li>
+        <li><a href="admissions.html" class="active">Admissions</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h2>Admissions Open for 2025–2026</h2>
+      <p>Join Greenfield Public School and experience holistic learning with world-class infrastructure.</p>
+    </section>
+
+    <section class="admission-info">
+      <h2>Admission Process</h2>
+      <ol>
+        <li>Fill out the online application form below.</li>
+        <li>Submit required documents (birth certificate, previous report card, etc.).</li>
+        <li>Attend an interaction session with our admissions team.</li>
+        <li>Receive confirmation via email or SMS.</li>
+      </ol>
+    </section>
+
+    <section class="form-section">
+      <h2>Apply Now</h2>
+      <form id="admissionForm">
+        <label for="studentName">Student Name</label>
+        <input type="text" id="studentName" name="studentName" required>
+
+        <label for="grade">Applying for Grade</label>
+        <select id="grade" name="grade" required>
+          <option value="">Select Grade</option>
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+          <option>6</option>
+          <option>7</option>
+          <option>8</option>
+          <option>9</option>
+          <option>10</option>
+          <option>11</option>
+          <option>12</option>
+        </select>
+
+        <label for="parentEmail">Parent Email</label>
+        <input type="email" id="parentEmail" name="parentEmail" required>
+
+        <label for="message">Message (Optional)</label>
+        <textarea id="message" name="message" rows="4"></textarea>
+
+        <button type="submit">Submit Application</button>
+      </form>
+      <p id="formMessage" style="margin-top: 10px; color: green;"></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Greenfield Public School | Designed by Aditya</p>
+  </footer>
+
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
