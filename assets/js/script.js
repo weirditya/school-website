@@ -21,3 +21,15 @@ if (contactForm) {
     contactForm.reset();
   });
 }
+
+// ===== Newsletter Form Handling =====
+const newsletterForm = document.getElementById("newsletterForm");
+const newsletterMessage = document.getElementById("newsletterMessage");
+
+if (newsletterForm) {
+  newsletterForm.addEventListener("submit", function(e) {
+    e.preventDefault();
+    newsletterMessage.textContent = "✅ Thank you for subscribing!";
+    newsletterForm.reset();
+  });
+}
