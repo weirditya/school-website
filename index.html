@@ -4,22 +4,59 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Greenfield Public School</title>
-  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
-<body class="bg-gray-50 text-gray-800 font-sans">
-
-  <header class="bg-blue-900 text-white py-4 shadow-md">
-    <h1 class="text-center text-3xl font-bold">Greenfield Public School</h1>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">Greenfield Public School</div>
+      <ul class="nav-links">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="academics.html">Academics</a></li>
+        <li><a href="admissions.html">Admissions</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
   </header>
 
-  <main class="mt-10 text-center">
-    <h2 class="text-2xl font-semibold">Welcome to Our School Website!</h2>
-    <p class="mt-4 text-lg">Building bright futures through learning and excellence.</p>
-  </main>
+  <section class="hero">
+    <div class="hero-text">
+      <h1>Welcome to Greenfield Public School</h1>
+      <p>Empowering young minds through education, integrity, and creativity.</p>
+      <a href="about.html" class="btn">Learn More</a>
+    </div>
+  </section>
 
-  <footer class="bg-gray-800 text-white py-4 mt-10">
-    <p class="text-center text-sm">© 2025 Greenfield Public School. All rights reserved.</p>
+  <section class="features">
+    <div class="feature-card">
+      <i class="fas fa-book"></i>
+      <h3>Academics</h3>
+      <p>Explore our wide range of subjects and extracurricular programs.</p>
+      <a href="academics.html">Read More</a>
+    </div>
+    <div class="feature-card">
+      <i class="fas fa-user-graduate"></i>
+      <h3>Admissions</h3>
+      <p>Join our community of learners. Learn about our admission process.</p>
+      <a href="admissions.html">Apply Now</a>
+    </div>
+    <div class="feature-card">
+      <i class="fas fa-phone"></i>
+      <h3>Contact</h3>
+      <p>Get in touch with us for inquiries and school information.</p>
+      <a href="contact.html">Contact Us</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Greenfield Public School | Designed by Aditya</p>
   </footer>
 
+  <script src="assets/js/script.js"></script>
 </body>
 </html>
