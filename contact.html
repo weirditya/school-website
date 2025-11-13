@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us | Greenfield Public School</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header>
+    <h1>Greenfield Public School</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="academics.html">Academics</a></li>
+        <li><a href="admissions.html">Admissions</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h2>Contact Us</h2>
+      <p>We’re here to help! Reach out to us through any of the following ways.</p>
+    </section>
+
+    <section class="contact-details">
+      <div class="info-card">
+        <h3>Our Address</h3>
+        <p>Greenfield Public School,<br> 123 Education Avenue,<br> Pune, Maharashtra, India</p>
+      </div>
+
+      <div class="info-card">
+        <h3>Call Us</h3>
+        <p>📞 +91 98765 43210</p>
+      </div>
+
+      <div class="info-card">
+        <h3>Email</h3>
+        <p>✉️ contact@greenfieldschool.edu.in</p>
+      </div>
+    </section>
+
+    <section class="map">
+      <h2>Find Us on Google Maps</h2>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3782.945089192402!2d73.85674331534967!3d18.520430287409915!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c076b1c7c17f%3A0x6f8db77f68e807d8!2sPune%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1619692603511!5m2!1sen!2sin"
+        width="100%"
+        height="350"
+        style="border:0;"
+        allowfullscreen=""
+        loading="lazy">
+      </iframe>
+    </section>
+
+    <section class="form-section">
+      <h2>Send Us a Message</h2>
+      <form id="contactForm">
+        <label for="name">Your Name</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Your Email</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+      <p id="contactMessage" style="margin-top: 10px; color: green;"></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Greenfield Public School | Designed by Aditya</p>
+  </footer>
+
+  <script src="assets/js/script.js"></script>
+</body>
+</html>

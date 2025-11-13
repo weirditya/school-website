@@ -9,3 +9,15 @@ if (admissionForm) {
     admissionForm.reset();
   });
 }
+
+// ===== Contact Form Handling =====
+const contactForm = document.getElementById("contactForm");
+const contactMessage = document.getElementById("contactMessage");
+
+if (contactForm) {
+  contactForm.addEventListener("submit", function(e) {
+    e.preventDefault();
+    contactMessage.textContent = "✅ Message sent successfully! We’ll get back to you soon.";
+    contactForm.reset();
+  });
+}
