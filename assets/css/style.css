@@ -476,3 +476,84 @@ button[type="submit"]:hover {
   padding-top: 15px;
   color: #e8f5e9;
 }
+
+/* ===== Responsive Design ===== */
+
+/* Tablets and below */
+@media (max-width: 992px) {
+  header nav ul {
+    flex-direction: column;
+    text-align: center;
+    background: #2e7d32;
+    padding: 15px;
+    border-radius: 8px;
+  }
+
+  header nav ul li {
+    margin: 10px 0;
+  }
+
+  .hero {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero img {
+    max-width: 90%;
+    margin-top: 20px;
+  }
+
+  .section {
+    padding: 40px 20px;
+  }
+}
+
+/* Mobile phones */
+@media (max-width: 600px) {
+  header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  header h1 {
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+  }
+
+  header nav ul {
+    padding: 10px;
+  }
+
+  .hero h2 {
+    font-size: 1.4rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
+  }
+
+  .section h2 {
+    font-size: 1.3rem;
+  }
+
+  .footer-container {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .footer-col {
+    margin-bottom: 30px;
+  }
+
+  #newsletterForm {
+    align-items: center;
+  }
+
+  #newsletterForm input {
+    width: 80%;
+  }
+
+  #newsletterForm button {
+    width: 80%;
+  }
+}
